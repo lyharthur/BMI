@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+    <ImageView android:id="@+id/report_image"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerVertical="true"
+        android:paddingTop="40dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/fit" />
+    <TextView android:id="@+id/report_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:text="@string/bmi_result"
+        android:layout_alignBottom="@+id/report_image"
+        android:layout_toRightOf="@+id/report_image"
+        android:layout_toEndOf="@+id/report_image"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="60dp" />
+    <TextView
+        android:id="@+id/report_advice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp" android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:text="@string/advice_average"
+        android:layout_above="@+id/report_result"
+        android:layout_alignLeft="@+id/report_result"
+        android:layout_alignStart="@+id/report_result" />
+</RelativeLayout>

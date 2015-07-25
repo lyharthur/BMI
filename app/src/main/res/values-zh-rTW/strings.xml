@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI</string>
+
+    <string name="action_settings">設定</string>
+    <string name="bmi_height">高度（cm)</string>
+    <string name="bmi_weight">重量（kg)</string>
+    <string name="bmi_btn">看BMI報告</string>
+    <string name="bmi_result">你的 BMI 值</string>
+    <string name="advice_light">你需要更多的食物!!!!!!</string>
+    <string name="advice_average">你看起來很棒！</string>
+    <string name="advice_heavy">你需要更多的運動！</string>
+    <string name="menu_settings">設置</string>
+    <string name="title_activity_report">報告</string>
+    <string name="bmi_waring">不能為空！</string>
+    <string name="bmi_waring0">不能為0！</string>
+    <string name="aboutbtn">關於BMI</string>
+    <string name="aboutmsg">BMI = 體重指數 = 體重（公斤）^2/身高（米）; 20~25之間的BMI為適合 </string>
+    <string name="menu_about">關於 BMI</string>menu_wiki
+    <string name="menu_wiki">BMI WIKI</string>
+    <string name="menu_exit">退出</string>
+
+
+</resources>
